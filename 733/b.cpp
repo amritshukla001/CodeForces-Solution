@@ -40,40 +40,7 @@ void solve() {
 			cout << "\n";
 		}
 	}
-	else if (h % 2 == 0 && w % 2 == 0) {
-		fo1(i, 1, h) {
-			fo1(j, 1, w) {
-				//wi2(i, j);
-				if (i == 1 || i == h) {
-					if (j % 2) cout << 1;
-					else cout << 0;
-				}
-				else if (i % 2 && (j == 1 || j == w)) {
-					if (i == h - 1) cout << 0;
-					else cout << 1;
-				}
-				else cout << 0;
-			}
-			cout << "\n";
-		}
-	}
-	else if (h % 2 && w % 2 == 0) {
-		fo1(i, 1, h) {
-			fo1(j, 1, w) {
-				//wi2(i, j);
-				if (i == 1 || i == h) {
-					if (j % 2) cout << 1;
-					else cout << 0;
-				}
-				else if (i % 2 && (j == 1 || j == w)) {
-					if (i == h - 1) cout << 0;
-					else cout << 1;
-				}
-				else cout << 0;
-			}
-			cout << "\n";
-		}
-	}
+	
 	else {
 		fo1(i, 1, h) {
 			fo1(j, 1, w) {
