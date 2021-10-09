@@ -1,0 +1,22 @@
+hp [ 2 3 3 6 ]
+sum 14
+mp(x, y) {3,12}
+sump1 11
+sump2 12
+mp(ngc1, ngc2) {1,1}
+lb 1
+mp(x, y) {7,9}
+ngc 2
+lb 4
+mp(x, y) {4,14}
+sump1 8
+sump2 11
+mp(ngc1, ngc2) {6,4}
+lb 3
+mp(x, y) {1,10}
+sump1 12
+mp(ngc1, ngc2) {0,2147483647}
+lb 0
+mp(x, y) {8,7}
+ngc 2
+lb 4

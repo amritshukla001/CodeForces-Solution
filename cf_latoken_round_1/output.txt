@@ -1,0 +1,17 @@
+Yes
+x.first = 1 and y.first = 1
+
+Yes
+x.first = 1 and y.first = 1
+
+Yes
+x.first = 1 and y.first = 1
+x.first = 1 and y.first = 3
+x.first = 1 and y.first = 5
+x.first = 3 and y.first = 1
+x.first = 3 and y.first = 3
+x.first = 3 and y.first = 5
+x.first = 5 and y.first = 1
+x.first = 5 and y.first = 3
+x.first = 5 and y.first = 5
+

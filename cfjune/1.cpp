@@ -1,0 +1,61 @@
+#include <bits/stdc++.h>
+#include <unordered_map>
+typedef long long ll;
+typedef unsigned long long ull;
+#define int long long
+#define wi(x) cout << #x << " = " << x << endl;
+#define wi2(x, y) cout << #x << " = " << x << " and " << #y << " = " << y << endl;
+#define IOS                           \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);
+#define testcase     \
+    long long testn; \
+    cin >> testn;    \
+    while (testn--)
+#define fo(i, l, r) for (int i = l; i < r; i++)
+#define fo1(i, l, r) for (int i = l; i <= r; i++)
+#define pb push_back
+#define disp(v) for(auto x:v) cout << x << "\t"
+
+const ll m = 1e9 + 7;
+
+using namespace std;
+
+
+void solve() {
+	int s1, s2, s3, s4;
+	int a[4];
+	fo(i, 0, 4)
+	cin >> a[i];
+
+	int res1, res2;
+
+	if (a[0] > a[1]) res1 = a[0];
+	else res1 = a[1];
+	if (a[2] > a[3]) res2 = a[2];
+	else res2 = a[3];
+
+	sort(a, a + 4);
+
+
+	if (res1 != a[2] && res1 != a[3])
+		cout << "NO\n";
+	else if (res2 != a[2] && res2 != a[3])
+		cout << "NO\n";
+	else
+		cout << "YES\n";
+}
+
+int32_t main() {
+	IOS;
+#ifndef ONLINE_JUDGE
+	//for getting input from input.txt
+	freopen("input.txt", "r", stdin);
+	//for writing output to output.txt
+	freopen("output.txt", "w" , stdout);
+#endif
+	//clock_t tStart=clock();
+	testcase solve();
+	//printf("Time taken: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+	return 0;
+}

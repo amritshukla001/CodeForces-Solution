@@ -1,0 +1,5 @@
+mp(bw, bh) {4,2}
+mp(bw, bh) {3,3}
+mp(bw, bh) {1,5}
+mp(bw, bh) {5,1}
+mp(bw, bh) {8,5}

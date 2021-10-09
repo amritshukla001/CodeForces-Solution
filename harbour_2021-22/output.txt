@@ -1,0 +1,8 @@
+p = 1
+YES
+p = 1
+NO
+p = 1
+NO
+p = 1
+YES
